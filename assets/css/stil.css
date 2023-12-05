@@ -1,0 +1,44 @@
+.logo {
+    width: 170px;
+    flex: 1;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-section .search-form {
+    background-color: green;
+    flex-basis: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    position: relative;
+    height: 20px;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    font-size:14px;
+    color:orange;
+}
+
+.fa-user, .fa-heart, .fa-cart-shopping {
+    color:orange;
+}
+
+.search-form input {
+    width: 100%;
+    height: 100%;
+   border: 1px solid orange;
+}
+
+.right-side {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-around;
+}
